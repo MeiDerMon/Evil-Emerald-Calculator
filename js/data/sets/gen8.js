@@ -806,13 +806,13 @@ var SETDEX_SS = {
             index: 73,
         },
 	},
-	Stunfisk: {
+    Toedscool: {
         'Gym Leader Roxanne': {
             level: 15,
-            ability: 'Sand Veil',
-            moves: ['Mud Shot', 'Electroweb', 'Muddy Water', 'Thunder Wave'],
+            ability: 'Triage',
+            moves: ['Giga Drain', 'Leech Seed', 'Rage Powder', 'Mud Shot'],
             nature: 'Calm',
-            item: 'Leftovers',
+            item: 'Big Root',
             ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
             index: 74,
         },
@@ -828,17 +828,7 @@ var SETDEX_SS = {
             index: 75,
         },
 	},
-	Toedscool: {
-        'Gym Leader Roxanne': {
-            level: 15,
-            ability: 'Triage',
-            moves: ['Giga Drain', 'Leech Seed', 'Rage Powder', 'Mud Shot'],
-            nature: 'Calm',
-            item: 'Big Root',
-            ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
-            index: 76,
-        },
-	},
+
 	Gligar: {
         'Gym Leader Roxanne': {
             level: 15,
@@ -847,7 +837,7 @@ var SETDEX_SS = {
             nature: 'Impish',
             item: 'None',
             ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
-            index: 77,
+            index: 76,
         },
 	},
 };

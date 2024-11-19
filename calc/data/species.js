@@ -3851,15 +3851,17 @@ var BW_PATCH = {
         abilities: { 0: "Rivalry" }
     },
     Basculin: {
-        types: ["Water"],
-        bs: { hp: 70, at: 92, df: 65, sa: 80, sd: 55, sp: 98 },
+    // Done
+    types: ['Water', 'Fire'],
+    bs: {hp: 70, at: 70, df: 55, sa: 92, sd: 65, sp: 68},
         weightkg: 18,
         abilities: { 0: "Reckless" },
         otherFormes: ["Basculin-Blue-Striped"]
     },
     "Basculin-Blue-Striped": {
-        types: ["Water"],
-        bs: { hp: 70, at: 92, df: 65, sa: 80, sd: 55, sp: 98 },
+    // Done
+    types: ['Water', 'Ghost'],
+    bs: {hp: 70, at: 92, df: 55, sa: 70, sd: 65, sp: 68},
         weightkg: 18,
         abilities: { 0: "Rock Head" },
         baseSpecies: "Basculin"
@@ -8768,22 +8770,33 @@ var PLA_PATCH = {
         baseSpecies: "Avalugg"
     },
     Basculegion: {
-        types: ["Water", "Ghost"],
-        bs: { hp: 120, at: 112, df: 65, sa: 80, sd: 75, sp: 78 },
+    // Done
+    types: ['Water', 'Fire'],
+    bs: {hp: 120, at: 80, df: 65, sa: 112, sd: 75, sp: 78},
         weightkg: 110,
         abilities: { 0: "Swift Swim" },
-        otherFormes: ["Basculegion-F"]
+        otherFormes: ["Basculegion-White", "Basculegion-Blue"]
     },
-    "Basculegion-F": {
-        types: ["Water", "Ghost"],
-        bs: { hp: 120, at: 92, df: 65, sa: 100, sd: 75, sp: 78 },
+    "Basculegion-White": {
+    // Done
+    types: ['Water', 'Ice'],
+    bs: {hp: 120, at: 95, df: 65, sa: 95, sd: 75, sp: 80},
+        weightkg: 110,
+        abilities: { 0: "Swift Swim" },
+        baseSpecies: "Basculegion"
+    },
+    "Basculegion-Blue": {
+    // Done
+    types: ['Water', 'Ghost'],
+    bs: {hp: 70, at: 92, df: 55, sa: 70, sd: 65, sp: 68},
         weightkg: 110,
         abilities: { 0: "Swift Swim" },
         baseSpecies: "Basculegion"
     },
     "Basculin-White-Striped": {
-        types: ["Water"],
-        bs: { hp: 70, at: 92, df: 65, sa: 80, sd: 55, sp: 98 },
+    // Done
+    types: ['Water', 'Ice'],
+    bs: {hp: 70, at: 80, df: 55, sa: 80, sd: 65, sp: 70},
         weightkg: 18,
         abilities: { 0: "Rattled" },
         baseSpecies: "Basculin",

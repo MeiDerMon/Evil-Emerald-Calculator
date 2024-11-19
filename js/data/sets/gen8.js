@@ -658,7 +658,7 @@ var SETDEX_SS = {
             ability: 'Storm Drain',
             moves: ['Bulldoze', 'Water Pulse', 'Protect', 'Stealth Rock'],
             nature: 'Calm',
-            item: 'Bright Powder',
+            item: 'Rindo Berry',
             ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
             index: 72,
         },
@@ -799,7 +799,7 @@ var SETDEX_SS = {
         'Gym Leader Roxanne': {
             level: 15,
             ability: 'Speed Boost',
-            moves: ['High Horsepower', 'Flame Wheel', 'Will-O-Wisp', 'Rock Slide'],
+            moves: ['Bulldoze', 'Flame Wheel', 'Will-O-Wisp', 'Rock Slide'],
             nature: 'Adamant',
             item: 'Air Balloon',
             ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
@@ -810,32 +810,31 @@ var SETDEX_SS = {
         'Gym Leader Roxanne': {
             level: 15,
             ability: 'Triage',
-            moves: ['Giga Drain', 'Leech Seed', 'Rage Powder', 'Mud Shot'],
+            moves: ['Mega Drain', 'Leech Seed', 'Rage Powder', 'Mud Shot'],
             nature: 'Calm',
             item: 'Big Root',
             ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
             index: 74,
         },
 	},
-	"Zygarde-10%": {
-        'Gym Leader Roxanne': {
-            level: 15,
-            ability: 'Intimidate',
-            moves: ['Thousand Arrows', 'Breaking Swipe', 'Dragon Dance', 'Bite'],
-            nature: 'Adamant',
-            item: 'Yache Berry',
-            ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
-            index: 75,
-        },
-	},
-
-	Gligar: {
+    Gligar: {
         'Gym Leader Roxanne': {
             level: 15,
             ability: 'Sand Veil',
             moves: ['Bulldoze', 'Acrobatics', 'Fire Fang', 'U-turn'],
             nature: 'Impish',
             item: 'None',
+            ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
+            index: 75,
+        },
+	},
+	"Zygarde-10%": {
+        'Gym Leader Roxanne': {
+            level: 15,
+            ability: 'Intimidate',
+            moves: ['Bulldoze', 'Breaking Swipe', 'Dragon Dance', 'Bite'],
+            nature: 'Adamant',
+            item: 'Yache Berry',
             ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
             index: 76,
         },

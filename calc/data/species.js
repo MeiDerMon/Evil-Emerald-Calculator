@@ -8788,7 +8788,7 @@ var PLA_PATCH = {
     "Basculegion-Blue": {
     // Done
     types: ['Water', 'Ghost'],
-    bs: {hp: 70, at: 92, df: 55, sa: 70, sd: 65, sp: 68},
+    bs: {hp: 120, at: 112, df: 65, sa: 80, sd: 75, sp: 78},
         weightkg: 110,
         abilities: { 0: "Swift Swim" },
         baseSpecies: "Basculegion"

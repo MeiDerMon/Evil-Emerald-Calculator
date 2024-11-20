@@ -4245,6 +4245,12 @@ var SS_PATCH = {
     Sandstorm: { isWind: true },
     Tailwind: { isWind: true },
     Whirlwind: { isWind: true },
+    "Alluring Voice": {
+        bp: 80,
+        type: "Fairy",
+        isSound: true,
+        category: "Special"
+    },
     "Aqua Cutter": {
         bp: 70,
         type: "Water",

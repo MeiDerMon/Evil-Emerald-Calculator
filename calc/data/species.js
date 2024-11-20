@@ -1097,13 +1097,15 @@ var GSC_PATCH = {
         nfe: true
     },
     Houndoom: {
-        types: ["Dark", "Fire"],
-        bs: { hp: 75, at: 90, df: 50, sa: 110, sd: 80, sp: 95 },
+    // Done
+    types: ['Fire', 'Dark'],
+    bs: {hp: 75, at: 90, df: 50, sa: 110, sd: 80, sp: 95},
         weightkg: 35
     },
     Houndour: {
-        types: ["Dark", "Fire"],
-        bs: { hp: 45, at: 60, df: 30, sa: 80, sd: 50, sp: 65 },
+    // Done
+    types: ['Fire', 'Dark'],
+    bs: {hp: 45, at: 60, df: 30, sa: 80, sd: 50, sp: 65},
         weightkg: 10.8,
         nfe: true
     },
@@ -5659,8 +5661,9 @@ var XY_PATCH = {
         baseSpecies: "Heracross"
     },
     "Houndoom-Mega": {
-        types: ["Dark", "Fire"],
-        bs: { hp: 75, at: 90, df: 90, sa: 140, sd: 90, sp: 115 },
+    // Done
+    types: ['Fire', 'Dark'],
+    bs: {hp: 75, at: 90, df: 90, sa: 140, sd: 90, sp: 115},
         weightkg: 49.5,
         abilities: { 0: "Solar Power" },
         baseSpecies: "Houndoom"
